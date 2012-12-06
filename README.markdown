@@ -21,5 +21,5 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
 1. Create or edit an entry made of some fields.
 2. To _re-order_ a field, click on the field's label, keep the mouse button down and drag the box around to reveal the available placeholders.
    - Every time you drop a field, the new order is saved to the database and will affect everyone.
-3. To _collapse_/_expand_ a field, perform a simple click on the field's label without moving it.
+3. To _collapse_ or _expand_ a field, perform a simple click on the field's label without moving it.
    - Every time you toggle a field, the new state is saved to the filesystem using `localStorage` on a per-device basis.
