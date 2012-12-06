@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------------------
+	Improved Entry Editor: General
+--------------------------------------------------------------------------*/
+
+#contents form {
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.sortable-container {
+	min-height: 30px;
+}
+
+div.field-checkbox:first-child{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.field {
+	min-height: 31px;
+	position: relative;
+	margin: 0 0 20px 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #f5f5f5;
+	-webkit-box-shadow: 0 1px 2px #e5e5e5;
+	box-shadow: 0 1px 2px #e5e5e5;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #b8b8b8;
+	border-top-color: #c4c4c4;
+	border-bottom-color: #b8b8b8;
+}
+
+.field header {
+	color: #3d3d3d;
+	padding: 8px 10px 7px;
+	border-bottom: 1px solid #d0d0d0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.field header i {
+	margin: 0 0 0 10px;
+	font-weight: normal;
+	color: #a1a1a1;
+}
+
+.field .content {
+	margin: 0;
+	padding: 10px 10px 0.1px;
+	background: #e8e8e8;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+/*--------------------------------------------------------------------------
+	Improved Entry Editor: Sortable
+--------------------------------------------------------------------------*/
+
+.field.ui-sortable-helper {
+	background-color: #668abe;
+	border-top: 1px solid #4D78B4;
+	border-bottom: 1px solid #4D78B4;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.field.ui-sortable-helper header {
+	color: #fff;
+	background: #5c83ba;
+	border-bottom-color: #7093c3;
+	cursor: move;
+}
+
+.field.ui-sortable-helper header i {
+	color: #bdcbdd;
+}
+
+.field.ui-sortable-helper .content {
+	background: #668abe;
+	color: #fff;
+}
+
+.field.ui-sortable-helper .content i {
+	color: #bdcbdd;
+}
+
+.field-placeholder {
+	background: #f2f2f2;
+	margin: 0 0 20px 0;
+	border: 1px dashed rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------------------
+	Improved Entry Editor: Collapsible
+--------------------------------------------------------------------------*/
+
+.field.collapsed {
+	border-bottom: none;
+}
+
+.field.collapsed header {
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
