@@ -65,8 +65,8 @@
 					handler.append(name.text().trim());
 					header.append(handler);
 
-					// If the field contains more than one input then 'Optional'
-					// shall remain inside a <label />
+					// If the field contains more than one input then
+					// 'Optional' shall remain inside a <label />
 					if(inputs.length === 1){
 						var optional = label.children('i');
 
@@ -118,7 +118,6 @@
 				},
 				stop: function(event, ui) {
 					self.onSortStop(event, ui);
-					self.saveCollapsibleState();
 				}
 			});
 
@@ -144,7 +143,7 @@
 
 			// Every time a field is expanded or collapsed
 			// its state is stored on the fileystem so that
-			// it survives page refreshes.
+			// it survives page refreshes
 			$('.field').on('expandstop.collapsible collapsestop.collapsible', function() {
 				self.saveCollapsibleState();
 			});
@@ -187,7 +186,7 @@
 			});
 		},
 
-		// Dragging is done, let's save the new order!
+		// The old order is gone, long live the new order!
 		onSortStop: function(event, ui) {
 			var self = this,
 				post_data = '',
