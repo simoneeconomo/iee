@@ -23,3 +23,7 @@ Information about [installing and updating extensions](http://symphony-cms.com/l
    - Every time you drop a field, the new order is saved to the database and will affect everyone.
 3. To _collapse_ or _expand_ a field, perform a simple click on the field's label without moving it.
    - Every time you toggle a field, the new state is saved to the filesystem using `localStorage` on a per-device basis.
+
+## Acknowledgement
+
+IEE is heavily based on Nick Dunn's [Dashboard](http://symphonyextensions.com/extensions/dashboard/), so all credit goes to Nick Dunn for creating such an awesome extension!
