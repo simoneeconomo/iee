@@ -37,7 +37,6 @@
 		public function generate(){
 			header('Content-Type: application/json');
 			echo json_encode($this->_Result);
-			exit;
 		}
 
 	}

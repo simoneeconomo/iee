@@ -19,9 +19,9 @@
 				$path = URL . '/extensions/iee/assets/';
 
 				if(Administration::instance()->Author->isDeveloper()){
-					$page->addStylesheetToHead($path . 'iee.publish.css', 'screen');
-					$page->addScriptToHead($path . 'jquery-ui-1.9.2.custom.min.js');
-					$page->addScriptToHead($path . 'iee.publish.js');
+					$page->addStylesheetToHead($path . 'iee.publish.css', 'screen', 50);
+					$page->addScriptToHead($path . 'jquery-ui-1.9.2.custom.min.js', 55);
+					$page->addScriptToHead($path . 'iee.publish.js', 75);
 				}
 			}
 		}

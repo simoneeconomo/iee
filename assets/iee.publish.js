@@ -33,7 +33,7 @@
 
 			// Don't panic, this doesn't prevent selection 
 			// inside textinputs and textareas
-			$('.sortable-container').disableSelection();
+			// $('.sortable-container ').disableSelection();
 
 			// Check if localStorage is supported
 			if(!Symphony.Support.localStorage){
@@ -48,7 +48,7 @@
 			//
 
 			// DOM must be altered, but I promise it's for your own good
-			$('.primary, .secondary').each(function(i, el) {
+			$('.sortable-container').each(function(i, el) {
 
 				$('.field', this).each(function() {
 
@@ -127,11 +127,13 @@
 
 			// Initialize the collapsible plugin
 			$('.sortable-container').symphonyCollapsible({
+
 				items:				'.field',
 				handles:			'header',
 				content:			'.content',
 				//ignore:				'header .handler'
 				save_state:			false
+
 			});
 
 			// Restore the saved state from the filesystem
